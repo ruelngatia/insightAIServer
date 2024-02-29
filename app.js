@@ -10,7 +10,7 @@ const app = express()
 
 app.use(express.json())
 app.use(cors({
-    origin: [' * ', 'https://insightai-n874.onrender.com', 'http://localhost:3000']
+    origin: [' * ', 'https://insightai-qdpe.onrender.com', 'http://localhost:3000']
 }))
 app.use(express.static('../front'));
 app.use(userRouter)
